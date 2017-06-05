@@ -9,7 +9,7 @@ $( () => {
   var $show = $('.carousel');
   var $slide = $show.children();
 
-  // slider
+  // slider por 5 segundos 
   $slide.eq(0).fadeIn(duration);
 
   setInterval(function(){
