@@ -1,8 +1,39 @@
-*{
+body{
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 
-btn{
-  
+#box{
+  position: relative;
+  padding: 0 70px;
+  overflow: hidden;
+}
+
+.carousel{
+  box-sizing: border-box;
+  width: 400px;
+  height: 320px;
+  overflow: hidden;
+}
+
+
+#btns{
+
+}
+
+.btn{
+  width: 20px;
+  padding: 5px;
+  border: none;
+  background-color: rgb(219, 118, 153);
+  cursor: pointer;
+}
+
+
+
+.image{
+  box-sizing: border-box;
+  width: 25vw;
+  height: 45vh;
 }
