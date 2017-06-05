@@ -3,6 +3,7 @@
 // })
 
 $( () => {
+  // variables
   var time = 5000;
   var duration = 1000;
   var $show = $('.carousel');

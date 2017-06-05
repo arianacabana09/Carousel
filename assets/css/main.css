@@ -2,69 +2,78 @@ body{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  background-color: rgb(157, 225, 237);
+  background-color: rgba(255, 255, 255, 0.75);
+  font-family: 'Anton', sans-serif;
+}
+
+h1{
+  font-size: 3rem;
+  color: rgb(69, 68, 124);
+  margin: 5px auto 20px;
 }
 
 #box{
+  box-sizing: border-box;
+  display: inline-block;
   position: relative;
-  padding: 0 70px;
-  overflow: hidden;
+  width: 950px;
+  height: 650px;
+  left: 400px;
+  text-align: center;
 }
 
 .carousel{
   box-sizing: border-box;
-  width: 400px;
-  height: 320px;
+  width: 950px;
+  height: 520px;
   overflow: hidden;
 }
 
-
-#btns{
-
-}
-
 .btn-prev, .btn-next {
-  width: 40px;
-  height: 40px;
-  background: rgba(255, 255, 255, 0.7);
+  background: rgba(147, 147, 147, 0.6);
   position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  line-height: 40px;
-  font-size: 30px;
-  font-weight: bold;
-  text-align: center;
   border-radius: 50%;
-  font-family: monospace;
+  line-height: 40px;
+  font-weight: bold;
+  font-size: 2rem;
   cursor: pointer;
+  height: 40px;
+  width: 40px;
+  top: 50%;
 }
 
 .btn-prev:hover, .btn-next:hover {
   background: white;
 }
 
-.btn-prev {
+#prev {
   left: 10px;
 }
 
-.btn-next {
+#next {
   right: 10px;
 }
-
-
-.btn{
-  width: 20px;
-  padding: 5px;
-  border: none;
-  background-color: rgb(219, 118, 153);
-  cursor: pointer;
-}
-
 
 
 .image{
   box-sizing: border-box;
   width: 100%;
-  height: 45vh;
+  height: 520px;
   display: block;
+}
+
+#btns{
+  padding: 20px;
+  text-align: center;
+}
+
+.btn{
+  width: 40px;
+  padding: 15px;
+  border: none;
+  background-color: rgb(120, 135, 189);
+  cursor: pointer;
+  border-radius: 15px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
 }
